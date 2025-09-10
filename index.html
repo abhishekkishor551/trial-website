@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- the top bar -->
+<header class="navbar">
+  <div class="logo">
+    <img src="/images/logo.jpg" alt="Awesome image">
+    <span>Healance</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#how">How it Works</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="loginBtn" class="login-btn">Login</button></li> 
+    </ul>
+  </nav>
+</header>
+
+
+
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Login</h2>
+    <form>
+      <input type="email" placeholder="Enter Email" required>
+      <input type="password" placeholder="Enter Password" required>
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+  </div>
+</div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+       <!-- <video autoplay muted loop class="background-video">
+            <source src="videos/hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        -->
+        <div class="hero-content">
+            <h1>Learn Cinematography Like a Pro</h1>
+            <p>Master the art of filmmaking with immersive tutorials.</p>
+            <a href="#features" class="btn">Explore Features</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Our Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Video Tutorials</h3>
+                <p>High-quality cinematic lessons for beginners to pros.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Interactive Quizzes</h3>
+                <p>Test your skills and track your progress in real-time.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Community</h3>
+                <p>Join our film enthusiasts network and collaborate.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Cinematic Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
